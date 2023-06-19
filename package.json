@@ -1,0 +1,30 @@
+{
+  "name": "projeto-modulo-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlePereiras/projeto-modulo-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlePereiras/projeto-modulo-2/issues"
+  },
+  "homepage": "https://github.com/AlePereiras/projeto-modulo-2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.4.0",
+    "node": "^20.2.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
+  }
+}
