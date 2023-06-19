@@ -21,3 +21,5 @@ fetch('https://randomuser.me/api/?nat=BR')
 function carregarHTML() {
   window.location.href = 'index.html';
 }
+
+console.log('hello')
