@@ -1,0 +1,4 @@
+A ideia de aplicação que a gente teve foi criar uma página com um card animado, mostrando os dados como nome, email, telefone, cidade e pais de um usuário aleatório obtido da API.
+Além disso a página contém um input que ao ser clicado será redirecionado a uma tabela contendo as mesmas informações de 10 usuários.
+Na página da tabela, os 10 usuários seriam apresentados em linhas separadas, facilitando a leitura e comparação dos dados.
+Essa aplicação proporcionaria uma experiência interativa e informativa para os usuários, permitindo que eles visualizem dados de usuários de forma animada e organizada. 
