@@ -1,0 +1,27 @@
+
+const {valida} = require("./css.js")
+
+const assert = require("assert")
+
+describe("Testando campo nome", function() {
+    it("Nome tem que ser apenas letras", function(){
+        var nome = "Joao";
+        assert.ok(valida(nome));
+    });
+});
+
+
+Teste 1 
+Descrição: O código tem que ter apenas letras no campo nome
+
+Teste 2 
+Descrição: O código tem que ter dois números dentro de um parentese e mais oito numeros seguidos no campo telefone
+
+Teste 3
+Descrição: O código tem que ter uma imagem média no campo imagem
+
+Teste 4
+Descrição: O código tem que ter o @ no campo email
+
+Teste 5 
+Descrição: O código tem que pegar os usuários que são do Brasil na Api RandomUser
