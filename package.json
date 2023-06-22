@@ -1,0 +1,22 @@
+{
+  "name": "projeto-modulo-2-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "css.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlePereiras/projeto-modulo-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlePereiras/projeto-modulo-2/issues"
+  },
+  "homepage": "https://github.com/AlePereiras/projeto-modulo-2#readme",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "node": "^20.2.0"
+  }
+}
