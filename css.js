@@ -22,3 +22,9 @@ function carregarHTML() {
   window.location.href = 'index.html';
 }
 
+function valida(nome) {
+  const nomeRegex = /^[A-Za-zÀ-ÖØ-öø-ÿ \'-]+$/;
+  return nomeRegex.test(nome);
+}
+
+module.exports = {valida}

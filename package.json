@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "css.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlePereiras/projeto-modulo-2.git"
@@ -16,7 +18,8 @@
   },
   "homepage": "https://github.com/AlePereiras/projeto-modulo-2#readme",
   "dependencies": {
-    "mocha": "^10.2.0",
-    "node": "^20.2.0"
+    "chai": "^4.3.7",
+    "jsdom": "^22.1.0",
+    "mocha": "^10.2.0"
   }
 }
